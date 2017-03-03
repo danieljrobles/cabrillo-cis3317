@@ -1,0 +1,21 @@
+body {
+  background: #CCCCCC url(/images/cabrillo-college-seahawk.png) no-repeat fixed center;
+  animation: pulse 20s infinite alternate;
+  font-size: 125%;
+  text-shadow: 1px 1px #ffffff;
+}
+@keyframes pulse {
+  0% {background-color: #CCCCCC;}
+  25% {background-color: #FFF5A5;}
+  50% {background-color: #FFD4DA;}
+  75% {background-color: #99D2E4;}
+  100% {background-color: #D8CAB4;}
+}
+div {
+  padding-bottom: 10px;
+}
+img {
+  display: block;
+  border: 1px dashed;
+  border-radius: 10px;
+}

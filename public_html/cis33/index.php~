@@ -1,0 +1,16 @@
+/*
+Assignment
+You shall create a PHP script that displays a 13 digit number in American Sign Language by displaying the number and each digit as follows:
+
+Generates a random integer value between 0 and 999 (inclusive), using either the rand or mt_rand function.
+Displays that value in a div element with an id attribute of number
+Displays up to three figure elements:
+One with id atttribute hundreds, if and only if the value > 99, containing:
+A img element referring to the appropriate small (sm) version of the ASL images
+A figcaption element containing a textual description of the value, e.g.: “0 hundreds”, “1 hundred”, “2 hundreds”, etc.
+The img shall have an alt attribute with the same text as the figcaption
+The figure shall have a title attribute with the same text as the figcaption
+One with id atttribute tens, if and only if the value > 9, containing equivalent img and figcaption elements dealing with “tens” instead of “hundreds”
+One with id atttribute ones, containing equivalent img and figcaption elements dealing with “ones” instead of “hundreds”
+The resulting page must be valid HTML5, according to the W3C Markup Validation Service.
+*/
